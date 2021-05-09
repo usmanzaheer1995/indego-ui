@@ -1,0 +1,12 @@
+.ant-notification-notice-message {
+  margin-bottom: 0 !important;
+}
+
+.ant-notification-notice-description {
+  font-size: 1.6rem;
+}
+
+.ant-notification-notice-close {
+  color: white;
+  transform: translate(12px, -8px);
+}
