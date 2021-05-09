@@ -126,9 +126,9 @@ function Dashboard() {
             disabledDate={disabledDates}
             onChange={onChange}
           />
-          <div>
+          {weather && (<div>
             Temperature on {formatDate(stations[0]?.createdAt ?? new Date())}: {weather && Math.round(weather.temp)}&deg; Celsius
-          </div>
+          </div>)}
           <Button
             type='primary'
             onClick={fetchLatestData}
